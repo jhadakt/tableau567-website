@@ -1,0 +1,86 @@
+/** Jhada Kahan-Thomas 23, April, 2021 **/
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 17px;
+}
+
+body {
+  background-color: #e7edf7; /**#F0F0F0;**/
+  font-family: "Arvo", "Montserrat", sans-serif;
+}
+
+/*Logo*/
+header {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+#wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5rem;
+}
+
+#class-title {
+  font-size: 12px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+
+nav a li {
+  padding-right: 50px;
+}
+
+/*Navbar*/
+nav {
+  float: right;
+  
+}
+
+nav ul {
+  padding: 0px;
+  text-align: center;
+}
+nav li {
+  display: inline;
+  margin: 0;
+}
+
+nav a {
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  padding: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover,
+#current-page {
+  background-color: lightskyblue;
+  color: white;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  font-family: "Playfair Display";
+  margin: auto;
+  width: 70%;
+}
+
+.center-page div{
+  align-content: center;
+  text-align: center;
+  margin: auto;
+}
