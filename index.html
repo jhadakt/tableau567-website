@@ -1,0 +1,55 @@
+<!-- Jhada Kahan-Thomas 20, April, 2021 -->
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Students Alcohol Consumption Analysis</title>
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <header role="banner">
+      <h1 id="class-title">CSCE 567<br> Visualization Tools</h1>
+      <nav role="navigation">
+        <ul>
+          <li><a href="#intro" >Student Alcohol Consumption</a></li>
+          <li><a href="#age">Age Impact</a></li>
+          <li><a href="#gender">Gender &amp; Involvement</a></li>
+          <li><a href="#education">Educational Refelction</a></li>
+          <li><a href="#health">Health Trends</a></li>
+        </ul>
+      </nav>
+  </header>
+  <div id="wrapper">
+    <section id=intro> 
+    <h1>Examining Student Alcohol Consumption</h1>
+    <p>Drinking antics among youths and college-age adults seems is becoming increasingly common, dare I say a norm. Alcohol is a commonly abused substance among adults struggling with physical and emotional problems and addiction. The impact alcohol consumption can have on younger individuals is conceivably much more dangerous for a less developed, impressionable mind.</p>
+    <h2>What You Can Learn</h2>
+    <p>The purpose of this analysis is to identify determinants that intermingle with student alcohol consumption. In addition, distinguish inherent high risks situations. This investigation analyzes the information from the Student Alcohol Consumption dataset to depict patterns that may improve strategies to mitigate risks, monitor high-risk situations, and understand the relationship between student's environments and personal considerations.</p>
+  </section>
+  <section id="age" class="center-page">
+    <h2>How Age Affects Alcohol Consumption</h2>
+    <p>I analyzed the Week day Alcohol consumption and Weekend Alcohol Consumption for math students across ages 15 to 22. I aggregated the age data to a single age year and used two stacked bar graphs to visualize weekend vs week day. You can can click on an age in the legend and the graphs will highlight the age across the alcohol consumption levels of both graphs. Hovering over a segment will tell you the age, consumption level, and the number of students who fit this category.</p>
+    <script type='text/javascript' src='https://prod-useast-a.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='position: relative; width: 1000px; height: 827px;'><object class='tableauViz' width='1000' height='827' style='display:none;'><param name='host_url' value='https%3A%2F%2Fprod-useast-a.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;csce567spring2020' /><param name='name' value='stackbar_567&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='showAppBanner' value='false' /></object></div>
+  </section>
+  <section id=gender class="center-page"> 
+    <h2>Gender and Extracurriculars Comparison </h2>
+    <p>I looked at the students who participate in extracurricular activities. Whether this impacts their study time depending on how much they participate in drinking. From the graph below, we can see that the average study time really does not fluctuate too much for both weekend and weekday drinking. It seems quite steady for both genders as well. However when you highlight a field it will tell you the number of students creating this average. It shows that these weekday sectors of high drinking are made  up of a very small group of people. Students involved in activities reach higher week end consumption levels meaning more people are averaging at this low study level. </p>
+    <script type='text/javascript' src='https://prod-useast-a.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1000px; height: 827px;'><object class='tableauViz' width='1000' height='827' style='display:none;'><param name='host_url' value='https%3A%2F%2Fprod-useast-a.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;csce567spring2020' /><param name='name' value='stackbar_567&#47;Dashboard2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='showAppBanner' value='false' /></object></div>
+  </section>
+  <section id=education class="center-page">
+    <h2>How does Alcohol Consumption Affect Students Final Grades?</h2>
+    <p>This section displays the ocrreelation between the final grades received by students in coordination with their tendencies to drink during the week and weekend.</p>
+    <script type='text/javascript' src='https://prod-useast-a.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1000px; height: 827px;'><object class='tableauViz' width='1000' height='827' style='display:none;'><param name='host_url' value='https%3A%2F%2Fprod-useast-a.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;csce567spring2020' /><param name='name' value='stackbar_567&#47;FinalGrades' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='showAppBanner' value='false' /></object></div>
+    <h2>How are High Consumption Levels reflected in School?</h2>
+    <p>Here we see high alcohol consumption levels can impact final grades while recognizing if students have failed classes and are absent from their schooling often.</p> 
+    <script type='text/javascript' src='https://prod-useast-a.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1000px; height: 827px;'><object class='tableauViz' width='1000' height='827' style='display:none;'><param name='host_url' value='https%3A%2F%2Fprod-useast-a.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;csce567spring2020' /><param name='name' value='stackbar_567&#47;AbsencesFailures' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='showAppBanner' value='false' /></object></div>
+  </section>
+  <section id="health" class="center-page">
+    <h2>How is Health a part of this?</h2>
+    <p>I analyzed health to see if high consumption levels reflected poor ratings of health and caused higher chances to miss school. By selecting a marker you can see the average absences of students reporting that they have been absent. We can deduce that at these high levels of drinking, regardless of their rating of their heath, students tend to be absent a lot more. Showing that these high drinking levels may have a negative impact on not how students may view their health but how it is influencing their overall well being and attendance for education.</p>
+    <script type='text/javascript' src='https://prod-useast-a.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1416px; height: 707px;'><object class='tableauViz' width='1416' height='707' style='display:none;'><param name='host_url' value='https%3A%2F%2Fprod-useast-a.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;csce567spring2020' /><param name='name' value='stackbar_567&#47;Sheet4' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='showAppBanner' value='false' /></object></div>
+  </section>
+  </div>
+</body>
+</html>
