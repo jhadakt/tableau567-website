@@ -79,6 +79,13 @@ p {
   width: 70%;
 }
 
+footer {
+  font-size: 80%;
+  font-family: "Playfair Display";
+  margin: auto;
+  text-align: center;
+}
+
 .center-page div{
   align-content: center;
   text-align: center;
